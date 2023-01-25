@@ -46,11 +46,19 @@ pipeline {
         script {
           env.abc = "Hello"
           def xyz = 10
+          def x1 = true
 
           print "abc = ${abc}"
           print "xyz = ${xyz}"
 
           print abc
+
+          def new1() {
+            print "hello"
+          }
+
+          new1()
+
 
 
         }
