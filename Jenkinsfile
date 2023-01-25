@@ -38,6 +38,7 @@
 
 @Library('roboshop') _
 
+env.abc = "Some Data"
 test1.new1()
 
 //pipeline {
